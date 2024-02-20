@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+body {
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #00072D; 
+}
+
+.container{
+    margin: 22px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #dedede;
+    border-radius: 9px;
+}
+
+.dice-container {
+    display: grid;
+    grid-template: 75px 75px/ repeat(5, 1fr);
+    gap: 35px;
+    width: auto;
+    height: auto;
+    padding: 20px;
+}
+
+.die{
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.45);
+    background-color: white;
+    width: 70px;
+    height: 70px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.die-number{
+    font-size: 2rem;
+}
+
+.roll-btn {
+    margin-top: 38px;
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    background-color: #5035FF;
+    font-weight: bold;
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+.roll-btn:active {
+    box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+}
+
+.title {
+    margin: 0px;
+    font-size: 40px;
+}
+
+.desc {
+    margin: 0;
+}
+
+.desc {
+    font-weight: 400;
+    margin-top: 0;
+    text-align: center;
+}
